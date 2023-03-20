@@ -17,7 +17,7 @@ Ich bin Linus Horn, 16 Jahre alt und wohne in Hamburg, Winterhude. Ich bin ein l
 # Projekte
 
 - [3x+1](./3x+1/README.md) - Implementierung des 3x+1-Algorithmus in verschiedenen Programmiersprachen
-- []
+-
 
 
 # Fähigkeiten und Kenntnisse
@@ -25,12 +25,12 @@ Ich bin Linus Horn, 16 Jahre alt und wohne in Hamburg, Winterhude. Ich bin ein l
 ## "Hard Skills":
 
 **Programmiersprachen:**
-* Python ([B2](./CEFR.md#b2))
-* C++ ([B1](./CEFR.md#b1))
-* Golang ([A2](./CEFR.md#a2))
-* Fortran ([A1](./CEFR.md#a1))
-
-[Defenition der Fähigkeiten](./CEFR.md)
+| Sprache | Kenntnis |
+| --- | --- |
+| Python | Fortgeschritten |
+| C++ | Fortgeschritten |
+| Go | Anfänger |
+| Fortran | Anfänger |
 
 **Sonstiges:**
 * Fortgeschrittener Umgang mit Git
