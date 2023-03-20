@@ -20,8 +20,9 @@ Ich bin Linus Horn, 16 Jahre alt und wohne in Hamburg, Winterhude. Ich bin ein l
 # Projekte
 
 - [3x+1](./3x+1/README.md) - Implementierung des 3x+1-Algorithmus in verschiedenen Programmiersprachen
-- ["Ascii Programming Language"](http://github.com/MixoMax/AsPL) - Eine in Python interpretierte Programmiersprache, die einen ähnlichen Syntax wie [Brainfuck](https://esolangs.org/wiki/Brainfuck) hat.
-- []
+- ["Ascii Programming Language"](http://github.com/MixoMax/AsPL) - Eine in Python interpretierte Programmiersprache, die einen ähnlichen Syntax und Funktionalität wie [Brainfuck](https://esolangs.org/wiki/Brainfuck) hat.
+- [GUI Taschenrechner](./Calculator/README.md) - Ein Taschenrechner mit GUI, der mit Python und PyQt6 geschrieben wurde.
+
 
 
 # Fähigkeiten und Kenntnisse
