@@ -12,12 +12,14 @@ Portfolio von Linus Horn ( aka [@MixoMax](https://www.GitHub.com/MixoMax))
 
 # Über mich
 
-Ich bin Linus Horn, 16 Jahre alt und wohne in Hamburg, Winterhude. Ich bin ein leidenschaftlicher Programmierer und habe mich in den letzten Jahren auf Python und C++ spezialisiert. Ich habe bereits einige Projekte umgesetzt und möchte diese hier vorstellen.
+<img src="./BewerbungsBild.jpg"  width="567" height="885">
+
+Ich bin Linus Horn, 16 Jahre alt und wohne in Hamburg, Winterhude. Ich bin ein leidenschaftlicher Programmierer, habe vor 4 Jahren mit Python angefangen. Zwischendurch habe ich viel mit Sinble-Board-Computern und Mikrocontrollern experimentiert (Raspberry Pi, Arduino, Calliope Mini). Ich habe dann vor ca. 1 Jahr angefangen, mich mit C++ zu beschäftigen und habe mich dann auch mit Go und Fortran beschäftigt. Ich habe auch schon einige Projekte fertiggestellt, die ich hier vorstellen möchte.
 
 # Projekte
 
 - [3x+1](./3x+1/README.md) - Implementierung des 3x+1-Algorithmus in verschiedenen Programmiersprachen
--
+- 
 
 
 # Fähigkeiten und Kenntnisse
@@ -50,6 +52,6 @@ Ich bin Linus Horn, 16 Jahre alt und wohne in Hamburg, Winterhude. Ich bin ein l
 
   * GitHub: [MixoMax](https://www.GitHub.com/MixoMax)
   * E-Mail: [linushorn@gmx.net](mailto:linushorn@gmx.net)
-  * Tel.: (+49) 1517 5001750
+  * Tel.: [(+49) 1517 5001750](tel:+4915175001750)
   * LinkedIn: [Linus Horn](https://www.linkedin.com/in/linus-horn-374bb323a/)
 
