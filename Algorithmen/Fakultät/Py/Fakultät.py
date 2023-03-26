@@ -3,7 +3,6 @@
 import time
 
 
-
 def Fakultät(n):
     if n == 0:
         return 1
@@ -12,6 +11,7 @@ def Fakultät(n):
         for i in range(1, int(n+1)):
             f *= i
         return f
+    
     
 
 n = float(input("Geben Sie eine natürliche Zahl ein: "))
