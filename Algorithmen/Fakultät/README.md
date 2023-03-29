@@ -50,6 +50,5 @@ in den Kompilierten Sprachen sind die Datentypen:
 der Fakultät Algorithmus wurde in den folgenden Sprachen implementiert:
 
 - [Python](./Py/Fakultät.py)
-- [C++](./cpp/Fakultät.cpp)
 
 in allen Sprachen wurde der Fakultätsalgorithmus iterativ implementiert, ohne eine eingebaute mathematische Funktion dafür zu verwenden.

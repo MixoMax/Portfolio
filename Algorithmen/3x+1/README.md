@@ -4,6 +4,10 @@
 
 * [Beschreibung](#Beschreibung)
 * [Implementierung](#Implementierung)
+* [Sprachen](#Sprachen)
+* [Reflexion](#Reflexion)
+
+
 
 ## Beschreibung
 
@@ -40,7 +44,7 @@ Output:
 >Zeit in ms
 
 
-## Sprachen und Zeitmessung
+## Sprachen
 
 Der 3x+1 Algorithmus wurde in den folgenden Sprachen nur mit den Standardbibliotheken implementiert:
 - [Python](./Py/3x+1.py)
@@ -49,6 +53,6 @@ Der 3x+1 Algorithmus wurde in den folgenden Sprachen nur mit den Standardbibliot
 - [Go](./go/3x+1.go)
 
 
-## Reflexion und Lessons Learned
+## Reflexion
 
 Dieses Projekt war für mich eine gute Möglichkeit, meine Grundlegenden Fähigkeiten zu testen und zu verbessern, da die Collatz-Folge in allen Sprachen grundsätzlches verständnis von Variablen, if-Statements und for- und while-Loops erfordert, aber auch Hardware-nähere Kentnisse, wie verschieden Lange Integer in den verschiedenen Sprachen implementiert sind.
