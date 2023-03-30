@@ -51,4 +51,4 @@ der Fakultät Algorithmus wurde in den folgenden Sprachen implementiert:
 
 - [Python](./Py/Fakultät.py)
 
-in allen Sprachen wurde der Fakultätsalgorithmus iterativ implementiert, ohne eine eingebaute mathematische Funktion dafür zu verwenden.
+in allen Sprachen wurde der Fakultätsalgorithmus iterativ implementiert, ohne eine eingebaute mathematische Funktion dafür zu verwenden. In Python wird automatisch bei einem Integer Overflow die
