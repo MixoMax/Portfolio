@@ -13,7 +13,7 @@ def fibonacci(n:int, m:int, iterations:int, verbose:bool=True):
     
     return f
 
-def plot_fibonacci(f:list):
+def plot_fibonacci(f:list): 
     fig, ax = plt.subplots()
     
     ax.plot(f)
