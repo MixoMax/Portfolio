@@ -3,7 +3,7 @@ import sys
 import os
 
 
-def req():
+def req() -> None:
     modules = ["PySide6", "sympy"]
 
     os_name = os.name

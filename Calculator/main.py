@@ -8,7 +8,7 @@ import math
 
 
 class Calculator(QMainWindow):
-    def __init__(self):
+    def __init__(self) -> None:
         super().__init__()
 
         self.setWindowTitle("Calculator")
@@ -69,7 +69,7 @@ class Calculator(QMainWindow):
 
         self.history = []
 
-    def create_button(self, text, row, col, layout):
+    def create_button(self , text: str, row: int, col: int, layout) -> None:
         button = QPushButton(text)
         if text in "0123456789.":
             button.setStyleSheet("font-size: 20px; font-weight: bold; border-radius: 5px; background-color: #e0e0e0;")
@@ -78,7 +78,7 @@ class Calculator(QMainWindow):
         button.clicked.connect(lambda: self.button_clicked(text))
         layout.addWidget(button, row, col)
 
-    def button_clicked(self, text):
+    def button_clicked(self, text: str) -> None:
         if text == "C":
             self.result_edit.setText("")
         elif text in "+-*/":
@@ -153,7 +153,7 @@ class Calculator(QMainWindow):
             # add the number to the result edit
             self.result_edit.setText(self.result_edit.text() + text)
 
-    def handle_key_press(self, event):
+    def handle_key_press(self, event) -> None:
         key = event.key()
         
 
