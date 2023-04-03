@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import time
 
-def fibonacci(n:int, m:int, iterations:int, verbose:bool=True): 
+def fibonacci(n:int, m:int, iterations:int, verbose:bool=True) -> list:
     
     f = [n, m]
     
@@ -13,7 +13,7 @@ def fibonacci(n:int, m:int, iterations:int, verbose:bool=True):
     
     return f
 
-def plot_fibonacci(f:list):
+def plot_fibonacci(f:list) -> None:
     fig, ax = plt.subplots()
     
     ax.plot(f)
@@ -22,7 +22,7 @@ def plot_fibonacci(f:list):
     
     plt.show()
 
-def main():
+def main() -> None:
     n = input("Enter the first number: ")
     try:
         n = int(n)

@@ -25,7 +25,7 @@ Die Fibonacci-Folge kann zwei Beliebige natürliche Zahlen `n` und `m` als Start
 
 Die Fibonacci-Folge wurde in den folgenden Sprachen nur mit den Standardbibliotheken implementiert:
 
-- [Python](./Py/Fibonacci.py)
+- [Python](./py/Fibonacci.py)
 - [C++](./cpp/Fibonacci.cpp)
 - [fortran](./fortran/Fibonacci.f90)
 
