@@ -36,3 +36,6 @@ In Python lässt sich die Fibonacci Folge zusätzlich noch mit matplotlib visual
 ## Reflexion
 
 Da die Fibonacci-Folge sehr schnell zu großen Zahlen konvergiert, ist es für das programmieren in lower-level Sprachen (wie c++ und fortran) wichtig, den Hardware Hintergrund (von z.B. Integern und pointern) zu verstehen, um die Berechnung zu optimieren.
+
+In Python ist die Berechnung der Fibonacci-Folge sehr einfach, da die Berechnung mit großen Zahlen von [PyInt](https://peps.python.org/pep-0237/) abstrahiert wird.
+
