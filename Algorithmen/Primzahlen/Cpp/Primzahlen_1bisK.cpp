@@ -22,26 +22,29 @@ bool is_prime(int n) {
 }
 
 int main() {
-    int_fast64_t s, k;
-
+    int s, k;
     cout << "Ab welcher Zahl sollen Primzahlen berechnet werden? " << endl;
     cin >> s;
-
     cout << "Bis zu welcher Zahl sollen Primzahlen berechnet werden? " << endl;
     cin >> k;
-
     cout << "Primzahlen von " << s << " bis " << k << ":" << endl;
 
     double start = clock();
 
+    int count = 0;
     for (int i = s; i <= k; i++) {
-        if (is_prime(i)) cout << i << endl;
+        if (is_prime(i)) {
+            count++;
+        }
     }
 
     double end = clock();
-    int_fast64_t time_ms = (end - start) / CLOCKS_PER_SEC * 1000;
-    cout << "Laufzeit: " << time_ms << " ms" << endl;
 
+    double percent = (double)count / (k - s + 1) * 100;
+
+    cout << "Es wurden " << count << " Primzahlen gefunden. (" << (int)percent << "%)" << endl;
+    double time_ms = (end - start) / CLOCKS_PER_SEC * 1000;
+    cout << "Laufzeit: " << (int)time_ms << " ms" << endl;
 
     return 0;
 }
