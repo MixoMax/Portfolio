@@ -15,13 +15,14 @@ Portfolio von Linus Horn
 
 <img style="float:right;margin:0 0 1em 1em; border-radius: 10%; position: relative; z-index: 1; width: 20%;" src="./BewerbungsBild.jpg">
 
-Ich bin Linus Horn, 16 Jahre alt und wohne in Winterhude, Hamburg. Ich bin ein leidenschaftlicher Programmierer, habe vor 4 Jahren mit Python angefangen. Zwischendurch habe ich viel mit Single-Board-Computern und Mikrocontrollern experimentiert (Raspberry Pi, Arduino, Calliope Mini). Ich habe dann vor ca. 1 Jahr angefangen, mich mit C++ zu beschäftigen und habe mich dann auch mit Go und Fortran beschäftigt. Ich habe auch schon einige Projekte fertiggestellt, die ich hier vorstellen möchte.
+Ich bin Linus Horn, 16 Jahre alt und wohne in Winterhude, Hamburg. Ich bin ein leidenschaftlicher Programmierer, habe vor 4 Jahren mit Python angefangen. Zwischendurch habe ich viel mit Single-Board-Computern und Mikrocontrollern experimentiert (Raspberry Pi, Arduino, Calliope Mini). Ich habe dann vor ca. 1 Jahr angefangen, mich mit C++ zu beschäftigen und habe mich dann auch mit Go und Fortran auseinander gesetzt. In letzter Zeit habe ich viel mit dem Flask Backend auseinander gesetzt. Ich habe auch schon einige Projekte fertiggestellt, die ich hier vorstellen möchte. 
 
 # Projekte
 
-- verschiedene [Algorithmen](./Algorithmen/README.md), die in verschiedenen Programmiersprachen geschrieben wurden.
-- ["Ascii Programming Language"](http://github.com/MixoMax/AsPL) - Eine in Python interpretierte Programmiersprache, die einen ähnlichen Syntax und Funktionalität wie [Brainfuck](https://esolangs.org/wiki/Brainfuck) hat.
-- [GUI Taschenrechner](./Calculator/README.md) - Ein Taschenrechner mit GUI, der mit Python in PyQt geschrieben wurde.
+- [fchat](./Projekte/fchat.md) - Ein Chat-Programm mit Flask backend
+- [QTally](./Projekte/QTally.md) - Ein Programm zur erfassung von Menschenmengen mit Qt GUI
+- [Ascii Programming Language](./Projekte/AsPL) - Eine Esoterische Programmiersprache mit Python Interpreter
+- [Monopolpy](./Projekte/Monopolpy) - WIP! Ein Monopoly Klon mit Python
 
 
 
