@@ -7,9 +7,9 @@ QTally ist ein Programm zur Erfassung von Menschenmengen. Es ist in Python mit P
 ## Was ich gelernt habe
 
 - Error Handling in Python
-- Intuitives Design
+- Intuitives Design (in Qt)
 - Object Oriented Programming
+- SQLAlchemy (SQL Datenbanken in Python)
+
 
 Da das Programm für die Benutzung von Laien gemacht ist, muss es nicht nur Intuitiv sein, sondern auch so benutzerfreundlich sein, dass es nicht unabsichtlich geschlossen werden kann, ohne zu speichern. Mehrere Funktionen, wie das zurücksetzen der Datenbank, sind nur über ein Passwort in der Konsole zugänglich, um zu verhindern, dass die Datenbank ausversehen gelöscht wird.
-
- 

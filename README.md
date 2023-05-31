@@ -15,7 +15,7 @@ Portfolio von Linus Horn
 
 <img style="float:right;margin:0 0 1em 1em; border-radius: 10%; position: relative; z-index: 1; width: 20%;" src="./BewerbungsBild.jpg">
 
-Ich bin Linus Horn, 16 Jahre alt und wohne in Winterhude, Hamburg. Ich bin ein leidenschaftlicher Programmierer, habe vor 4 Jahren mit Python angefangen. Zwischendurch habe ich viel mit Single-Board-Computern und Mikrocontrollern experimentiert (Raspberry Pi, Arduino, Calliope Mini). Ich habe dann vor ca. 1 Jahr angefangen, mich mit C++ zu beschäftigen und habe mich dann auch mit Go und Fortran auseinander gesetzt. In letzter Zeit habe ich viel mit dem Flask Backend auseinander gesetzt. Ich habe auch schon einige Projekte fertiggestellt, die ich hier vorstellen möchte. 
+Ich bin Linus Horn, 16 Jahre alt und wohne in Hamburg. Ich bin ein leidenschaftlicher Programmierer, habe vor 4 Jahren mit Python angefangen. Zwischendurch habe ich viel mit Single-Board-Computern und Mikrocontrollern experimentiert (Raspberry Pi, Arduino). Ich habe dann vor ca. 1 Jahr angefangen, mich mit C++ zu beschäftigen und habe mich dann auch mit Go und Fortran auseinander gesetzt. In letzter Zeit habe ich viel mit dem Flask Backend und SQL Datenbakne gearbeitet. Ich habe auch schon einige Projekte fertiggestellt, die ich hier vorstellen möchte. 
 
 # Projekte
 
@@ -58,4 +58,3 @@ Ich bin Linus Horn, 16 Jahre alt und wohne in Winterhude, Hamburg. Ich bin ein l
   * E-Mail: [linushorn@gmx.net](mailto:linushorn@gmx.net)
   * Tel.: [(+49) 1517 5001750](tel:+4915175001750)
   * LinkedIn: [Linus Horn](https://www.linkedin.com/in/linus-horn-374bb323a/)
-
