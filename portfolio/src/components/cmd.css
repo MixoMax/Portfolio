@@ -1,0 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+.cmd {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.2em;
+    
+    color: #8d8e8f;
+    background-color: #2b2b2b;
+}
