@@ -15,44 +15,11 @@ html {
     margin: 0;
 }
 
-html * {
-    /* for debugging */
-    border: 0px solid red;
-}
-
-.App {
-
-}
-
-.clickable {
-    cursor: pointer;
-    transition: all 0.1s ease-in-out;
-}
-
-.clickable:hover {
-    transform: scale(1.05);
-}
-
 .hbox {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-
-.hbox > .half {
-    width: 50%;
-    height: 100%;
-}
-
-.hbox > .third {
-    width: 33.33%;
-    height: 100%;
-}
-
-.hbox > .quarter {
-    width: 25%;
-    height: 100%;
 }
 
 .vbox {
@@ -61,28 +28,6 @@ html * {
     justify-content: center;
     align-items: center;
 }
-
-.vbox > .half {
-    width: 100%;
-    height: 50%;
-}
-
-.vbox > .third {
-    width: 100%;
-    height: 33.33%;
-}
-
-.vbox > .quarter {
-    width: 100%;
-    height: 25%;
-}
-
-
-.full {
-    width: 100%;
-    height: 100%;
-}
-
 
 
 input[type="text"], input[type="email"], input[type="password"] {

@@ -1,10 +1,94 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
+html {
+    --cmd-bg: #2c0822;
+    --cmd-text: #fff0ed;
+    --cmd-title-bg: #3e3d39;
+    --cmd-title-text: #e2dcce;
+    --cmd-user-text: #9fca5c;
+}
+
 .cmd {
+    border: 1px solid #000;
     font-family: 'Ubuntu Mono', monospace;
     font-size: 1.2em;
     
-    color: #8d8e8f;
-    background-color: #2b2b2b;
+    color: var(--cmd-text);
+    background-color: var(--cmd-bg);
+
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.cmd--maximized {
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.cmd--minimized {
+    display: none;
+}
+
+.cmd__output {
+    padding: 10px;
+    overflow-y: scroll;
+    height: 80%;
+    background-color: var(--cmd-bg);
+}
+
+.cmd__input {
+    padding: 10px;
+}
+
+.cmd_title {
+    border-radius: 10px 10px 0px 0px;
+
+    padding-left: 10px;
+    width: calc(100% - 10px);
+    height: 36px;
+    
+    top: 0;
+    background-color: var(--cmd-title-bg);
+    color: var(--cmd-title-text);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cmd_title p {
+    margin: 0px;
+    transform: translateY(18%);
+}
+
+.cmd__title__buttons > span {
+    /*
+    <div class=cmd_title>
+        <p>Command Prompt</p>
+        <div class=cmd__title__buttons>
+            <p>close</p>
+            <p>minimize</p>
+            <p>maximize</p>
+        </div>
+    </div>
+
+    q: how to make the buttons float right but command prompt title float left?
+    a: display: flex; justify-content: space-between;
+    */
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.cmd__title__buttons > span:hover {
+    color: var(--cmd-user-text);
+}
+
+.cmd__input__user {
+    color: var(--cmd-user-text);
 }

@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
+import './cmd.css';
 
 const Cmd = () => {
 
+    var user = "linus@linus-minus-sinus.org:~$";
     var cmd = "neofetch";
     var neofetch_output = {
         "user": "linus@linus-minus-sinus.org",
@@ -125,14 +127,13 @@ const Cmd = () => {
     useEffect(() => {
         setTimeout(() => {
             var new_ticks = ticks + 1;
-            new_ticks = new_ticks % (neofetch_output_str.length + 1);
             setTicks(new_ticks);
         }, 1);
 
     }, [ticks]);
 
     useEffect(() => {
-        var output = cmd + "\n";
+        var output = ""
 
         if (ticks < neofetch_output_str.length) {
             output += neofetch_output_str.substring(0, ticks);
@@ -152,6 +153,18 @@ const Cmd = () => {
 
     return (
         <div className="cmd">
+            <div className="cmd_title">
+                <p>linus@linus-minus-sinus.org:~$</p>
+                <div className="cmd__title__buttons">
+                    <span id="cmd__title__min">_</span>
+                    <span id="cmd__title__max" onClick={() => {document.querySelector(".cmd").classList.toggle("cmd--maximized")}}>□</span>
+                    <span id="cmd__title__close">✖</span>
+                </div>
+            </div>
+            <div className="cmd__input">
+                <span className="cmd__input__user">{user}</span>
+                <span className="cmd__input__cmd"> {cmd}</span>
+            </div>
             <div className="cmd__output" dangerouslySetInnerHTML={{__html: output}}></div>
         </div>
     );
